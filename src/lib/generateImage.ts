@@ -1,4 +1,4 @@
-const MOCK_MODE = true; // Backend dev switches this to false later
+const MOCK_MODE = true; // switch this to false later
 
 export async function generateImage(prompt: string) {
   if (MOCK_MODE) {
