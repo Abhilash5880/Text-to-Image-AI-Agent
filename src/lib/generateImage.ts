@@ -1,4 +1,4 @@
-const MOCK_MODE = true; // switch this to false later
+const MOCK_MODE = false; // switch this to false later
 
 export async function generateImage(prompt: string) {
   if (MOCK_MODE) {
@@ -8,7 +8,8 @@ export async function generateImage(prompt: string) {
     };
   }
 
-  const res = await fetch("http://localhost:5000/generate-image", {
+  //api route updated
+  const res = await fetch("/api/generate-image", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ prompt }),
