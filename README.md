@@ -25,6 +25,10 @@ This is a Text-to-Image AI Agent built using Next.js and Tailwind CSS. The proje
 - Users can generate and download high-quality AI images.
 - Deployed successfully on Vercel.
 
+## Deployment
+
+- Live App (Vercel): [Text-to-Image AI Agent](https://text-to-image-ai-agent.vercel.app/)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
